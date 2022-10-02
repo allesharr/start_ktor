@@ -6,6 +6,14 @@ import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.request.*
 
+
+fun Application.login() {
+    routing {
+        get("/") {
+           call.respondH
+        }
+    }
+}
 fun Application.configureRouting() {
 
     routing {
